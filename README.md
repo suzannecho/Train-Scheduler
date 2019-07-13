@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/suzannecho/Train-Scheduler/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Train Schedule Application 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This train schedule application incorporates Firebase to host arrival and departure data. Your app will retrieve and manipulate this information with Moment.js. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.
 
-### Markdown
+Setup
+We'll leave that up to you -- however you like. Just make sure you're using Firebase to store data, GitHub to backup your project, and GithHub Pages to host your finished site.
+Instructions
+Make sure that your app suits this basic spec:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+When adding trains, administrators should be able to submit the following:
 
-```markdown
-Syntax highlighted code block
+Train Name
 
-# Header 1
-## Header 2
-### Header 3
+Destination
 
-- Bulleted
-- List
+First Train Time -- in military time
 
-1. Numbered
-2. List
+Frequency -- in minutes
 
-**Bold** and _Italic_ and `Code` text
+Code this app to calculate when the next train will arrive; this should be relative to the current time.
 
-[Link](url) and ![Image](src)
-```
+Users from many different machines must be able to view same train times.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Styling and theme are completely up to you. Get Creative!
 
-### Jekyll Themes
+Click the following link to access my train application
+https://suzannecho.github.io/Train-Scheduler/
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/suzannecho/Train-Scheduler/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Built with the following :
+-HTML5
+-CSS3
+-JavaScript
+-Bootstrap Framework
+-jQuery
+-Firebase Database
