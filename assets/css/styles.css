@@ -1,0 +1,34 @@
+body {
+  background-image: url(../images/hogwarts-express.jpg)
+  }
+  .panel-primary > .panel-heading {
+    background-color: #646464;
+  }
+
+  h1 {
+      
+  background-image: linear-gradient(to right, red , yellow);
+  }
+  .jumbotron {
+    margin-top: 30px;
+    border: 10px royalblue solid;
+
+
+  }
+  .hogwarts {
+    max-width: 100%;
+  }
+
+  h3 { 
+      color: purple;
+  }
+
+.panel-heading {
+    background-color: black
+}
+
+  .btn {
+    background-color: darkcyan;
+    border: 2px solid black;
+    color: white;
+  }
